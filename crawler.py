@@ -44,3 +44,6 @@ with open(header.get_text() + ".txt","w",encoding="utf-8") as file:
       hasLink = item.find("a")
       if hasLink is None:
         file.write(item.get_text())
+
+
+# References：https://stackoverflow.com/questions/2081586/web-scraping-with-python
